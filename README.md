@@ -26,4 +26,5 @@ However, this drawabck can be complemented by the domain adversarial training.
 
 It's realized by connecting a Domain Classifier to feature extractor. Feature extractor learns not only how to minimize loss of classifier but also maximize loss of domail classifier, **which means the network cannot tell the difference between source and target**. 
 
-Articl: https://arxiv.org/pdf/1505.07818.pdf
+Paper: https://arxiv.org/pdf/1505.07818.pdf
+Dataset: real_or_painting
